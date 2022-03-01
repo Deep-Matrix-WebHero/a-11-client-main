@@ -1,11 +1,10 @@
 import React from "react";
 import {Accordion, Container} from "react-bootstrap";
 import faq from "../../image/faq.jpg";
-import "./Faq.css";
 
 const Faq = () => {
   return (
-    <div className="mt-5">
+    <div>
       <Container>
         <h3 className="mt-5 component-headings pb-2">Asked Questions</h3>
         <h1 className="fw-bold">Frequently Asked Question</h1>
@@ -17,24 +16,24 @@ const Faq = () => {
             <Accordion defaultActiveKey="0">
               <Accordion.Item eventKey="0">
                 <Accordion.Header>
-                  When Should I Book a Service
+                  Where Should I Book a Service
                 </Accordion.Header>
                 <Accordion.Body>
-                  With 114 world-class rooms, including 18 suites, the FARS
-                  Hotel & Resorts, Dhaka, is an urban retreat in one of the
-                  city's most vibrant districts. Decorated in a sleek,
-                  contemporary style, each of the rooms offers free high-speed
-                  WiFi Internet access along with international standard bath
-                  amenities, tea and coffees.
+                  Bangladesh's tourist attractions include historical monuments,
+                  resorts, beaches, picnic spots, forests and tribal people,
+                  wildlife of various species. Activities for tourists include
+                  angling, water skiing, river cruising, hiking, rowing,
+                  yachting, and sea bathing.
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="1">
-                <Accordion.Header>When Should I arrive</Accordion.Header>
+                <Accordion.Header>
+                  How much money should I bring?
+                </Accordion.Header>
                 <Accordion.Body>
-                  Families appreciate the convenience of 6 interconnecting
-                  rooms. Guests may also request handicap-accessible, smoking
-                  and non-smoking rooms. All rooms include complimentary access
-                  to the hotel's fitness facilities, swimming pool.
+                  The local currency is Bangladeshi Taka (BDT). ATMs accepting
+                  international cards are widely available, and most major
+                  currencies can be exchanged nearby.
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="2">
@@ -47,12 +46,14 @@ const Faq = () => {
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="3">
-                <Accordion.Header>When Should I Travel</Accordion.Header>
+                <Accordion.Header>
+                  Can I book bus, train, or boat tickets online?{" "}
+                </Accordion.Header>
                 <Accordion.Body>
-                  Families appreciate the convenience of 6 interconnecting
-                  rooms. Guests may also request handicap-accessible, smoking
-                  and non-smoking rooms. All rooms include complimentary access
-                  to the hotel's fitness facilities, swimming pool.
+                  No, despite the promotion for online ticketing, most websites
+                  don’t work properly, or you need a Bangladeshi bank card or
+                  local Bkash number to pay. You’ll have to visit the ticket
+                  offices when you’re here.
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>

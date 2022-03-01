@@ -7,7 +7,7 @@ const Resort = () => {
       <div className=" container my-5 py-5 bg-primary text-white">
         <h5 className="text-center ">Choose Your</h5>
         <h1>Resorts</h1>
-        <p>
+        <p className="text-start">
           A hotel is frequently a central feature of a resort, such as the Grand
           Hotel at Mackinac Island, Michigan. Some resorts are also condominium
           complexes that are timeshares or owned fractionally or wholly owned

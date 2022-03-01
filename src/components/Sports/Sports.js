@@ -22,7 +22,7 @@ const Sports = () => {
         ></iframe>
       </div>
 
-      <div className="py-3">
+      <div className="py-3 text-start">
         <p>
           A resort (North American English) is a self-contained commercial
           establishment that tries to provide most of a vacationer's wants, such
@@ -39,7 +39,7 @@ const Sports = () => {
           ReadMore
         </Button>
         <Collapse in={open}>
-          <div id="example-collapse-text">
+          <div id="example-collapse-text text-start">
             Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
             terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
             labore wes anderson cred nesciunt sapiente ea proident.
