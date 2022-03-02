@@ -16,6 +16,9 @@ const Resort = () => {
           of facility became more common.
         </p>
       </div>
+      <div>
+        <h1>Choose your seasonal resorts</h1>
+      </div>
 
       <div className="container">
         <div className="row resort py-5">

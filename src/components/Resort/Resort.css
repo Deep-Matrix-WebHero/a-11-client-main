@@ -5,10 +5,11 @@
 .resort-image {
   height: 300px;
   width: 360px;
-  border-radius: 20px;
+  border-radius: 10px;
+  border: 5px solid silver;
 }
 
 .resort-image:hover {
-  height: 320px;
-  width: 380px;
+  height: 310px;
+  width: 370x;
 }
