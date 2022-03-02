@@ -1,0 +1,13 @@
+.plan-tittle {
+  margin: 4rem;
+  border: 1px solid red;
+}
+Carousel.Item img {
+  height: 400px;
+  width: 100%;
+}
+accordion-body .ac-img img {
+  height: 200px;
+  width: 200px;
+  display: flex;
+}
