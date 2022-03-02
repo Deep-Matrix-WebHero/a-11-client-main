@@ -1,0 +1,9 @@
+.gal {
+  background-color: rgb(245, 241, 237);
+  border: 0.5rem solid silver;
+  margin: my-5;
+}
+
+.gal img {
+  border: 0.5rem solid goldenrod;
+}
