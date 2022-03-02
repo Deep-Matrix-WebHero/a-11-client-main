@@ -1,13 +1,14 @@
 import React from "react";
 import {Accordion, Container} from "react-bootstrap";
 import faq from "../../image/faq.jpg";
+import "./Faq.css";
 
 const Faq = () => {
   return (
-    <div>
+    <div className="faq">
       <Container>
         <h3 className="mt-5 component-headings pb-2">Asked Questions</h3>
-        <h1 className="fw-bold">Frequently Asked Question</h1>
+        <h1 className="fw-bold ">Frequently Asked Question</h1>
         <div className="row">
           <div className="col col-lg-6 col-12 gy-5">
             <img src={faq} alt="" className="img-fluid" />
